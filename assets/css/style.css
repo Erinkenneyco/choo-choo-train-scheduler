@@ -1,0 +1,112 @@
+.jumbotron {
+    background:url("../images/polar-express-1916376__340.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color:whitesmoke;
+    font-family: cursive;
+    text-shadow:
+		-1px -1px 0 #555,
+		1px -1px 0 #555,
+		-1px 1px 0 #555,
+        1px 1px 0 #555;
+    height: 300px;
+}
+
+Body{
+    background:url("../images/snow-1931714__340.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h2{
+    
+    color:maroon;
+    text-shadow:
+		-1px -1px 0  white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
+
+h3{
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0  white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white; 
+}
+
+#trainTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#trainTable td,
+#trainTable th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#trainTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#trainTable tr:hover {
+    background-color: #fff;
+}
+
+#trainTable th {
+    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: maroon;
+    color: white;
+}
+tr {
+    background:#ddd;
+}
+
+.min {
+    text-align: center;
+}
+
+#trainTable #times {
+    text-align: center;
+}
+
+#addTrainBtn{
+   background-color: maroon;
+   color:white; 
+}
+.panel-heading{
+    text-align:center;
+    padding-top:15px;
+}
+
+label{
+    display:block;
+    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: maroon;
+    color: white;
+    padding:10px;
+    border-radius: 5px;
+}
+
+footer{
+    text-align:center;
+    color:maroon;
+}
+
+a{
+    color:black;
+}
